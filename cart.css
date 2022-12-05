@@ -1,0 +1,79 @@
+.buy-list {
+    margin-top: 100px;
+    display: inline-block;
+}
+.buy-list li{
+    position: relative;
+    display: flex;
+    list-style-type: none ;
+    width: 800px;
+    margin-left: 120px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.buy-list li div {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.buy-list li div p {
+    margin-top: 30px;
+} 
+.buy-list li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.buy-list > p {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.cart-container {
+    position: relative;
+}
+.buy-price {
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    /* background-color: #ccc; */
+    top: 100px;
+    border: 1px solid black;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+.buy-price ul {
+    list-style-type: none;
+}
+.buy-price li {
+    display: flex;
+    justify-content: space-around;
+}
+.buy-price > p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.buy-price div {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.buy-price button {
+    margin-left: 140px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

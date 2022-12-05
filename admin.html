@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="./index.html">Sản phẩm</a>
+        <a href="./cart.html">Giỏ hàng</a>
+        <a href="./admin.html" class="active">Admin</a>
+        <div class="badge-component">0</div>
+    </div>
+    <div class="form">
+        <form>
+            <label class="form-text" for="name-product">Tên sản phẩm</label>
+            <input type="text" id="name-product" name="productname" placeholder="Nhập tên sản phẩm">
+            <p class="product-name-error noti"></p>
+            <br>
+            <label class="form-text" for="">Link ảnh</label>
+            <input type="text" id="img-link" name="imglink" placeholder="Nhập Link ảnh">
+            <p class="product-link-error noti"></p>
+            <br>
+            <label class="form-text" for="">Giá</label>
+            <input type="text" id="product-price" name="productprice" placeholder="Nhập Giá">
+            <p class="product-price-error noti"></p>
+            <br>
+            <label class="form-text desc-text" for="">Mô tả</label> 
+            <textarea name="description" id="description" placeholder="Nhập mô tả"></textarea>
+            <p class="product-des-error noti"></p>
+            <br>
+            <button type="submit">Dùng sản phẩm </button>
+        </form>
+    </div>
+    <div class="admin-notification">Thêm sản phẩm <br>thành công</div>
+    <script src="./admin.js" type="module"></script>
+    <script src="./badge.js"></script>
+
+</body>
+</html>
